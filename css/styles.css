@@ -7,3 +7,9 @@ font-style: italic;
 p.author {
     font-size: 12px;
 }
+body {
+    background-color: aqua;
+    backface-visibility: visible;
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2018/09/Giraffes_Masai-Mara_Manoj-Shah_getty_623-19fe90d.jpg?quality=90&resize=614%2C409);
+    background-size: inherit;
+}
