@@ -1,8 +1,12 @@
 .intro {
 font-style: italic;
+font-weight: bold;
+color: firebrick;
 }
 .author {
     colour: red;
+    font-style: oblique;
+    font-size: xx-large;
 }
 p.author {
     font-size: 12px;
@@ -10,6 +14,20 @@ p.author {
 body {
     background-color: aqua;
     backface-visibility: visible;
-    background-image: url(https://images.immediate.co.uk/production/volatile/sites/23/2018/09/Giraffes_Masai-Mara_Manoj-Shah_getty_623-19fe90d.jpg?quality=90&resize=614%2C409);
-    background-size: inherit;
+    
+}
+#line1{
+    font-size: inherit;
+    font-style: initial;
+    color: lawngreen;
+    font-weight: bold;
+    font-size: x-large;
+}
+img {
+    float: left;
+
+}
+.column {
+    width: 350px;
+    float: right;
 }
