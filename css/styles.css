@@ -28,6 +28,11 @@ img {
 
 }
 .column {
-    width: 350px;
-    float: right;
+   column-width: 350px;
+    float: inline-end;
+    column-count: auto;
+    border: 0rem red;
+    border-width: inherit;
+    border-style: double;
+
 }
